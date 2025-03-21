@@ -22,9 +22,25 @@ Lista de Tareas - React & NestJS
 - Vite
 - Git & Github
 
+## Guía del Frontend - React
+
+<p style="color: gray; opacity: 0.9;">Nota: Primero dirigirse al directorio <span style="color:yellow;opacity: 0.7;"> './client' </span> para ejecutar los siguientes comandos.</p>
+
+<p>Instalar las dependencias:</p>
+
+```bash
+yarn install
+```
+
+<p>Ejecutar la aplicación FRONTEND:</p>
+
+```bash
+yarn dev
+```
+
 ## Guía del Backend - NestJS
 
-<p style="color: gray; opacity: 0.9;">Nota: Primero dirigirse al directorio './server' para ejecutar los siguientes comandos.</p>
+<p style="color: gray; opacity: 0.9;">Nota: Primero dirigirse al directorio <span style="color:yellow;opacity: 0.7;">'./server'</span> para ejecutar los siguientes comandos.</p>
 
 <p>Instalar las dependencias:</p>
 
@@ -44,7 +60,7 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-<p>Ejecutar la aplicación en dev:</p>
+<p>Ejecutar la aplicación BACKEND en dev:</p>
 
 ```bash
 yarn start:dev
